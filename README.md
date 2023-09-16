@@ -9,3 +9,7 @@ A Linux command is a program that runs on the command line.
 **What is a Command Line Interface (CLI)**
 
 A command line is an interface that accepts lines of text and processes them into instructions for your computer.
+
+**a command in linux is case sensitive*
+
+1. **pwd**
