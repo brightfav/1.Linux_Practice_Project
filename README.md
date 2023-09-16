@@ -67,7 +67,7 @@ the **tac** command outputs the content of a file in reverse from down-up
 
 ![13 cat display in reverse](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/0c946a5f-4569-48a1-aabe-23b3a84d57c4)
 
-6. **cp** wommand 
+6. **cp** command 
 
 
 
