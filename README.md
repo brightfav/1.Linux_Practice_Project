@@ -50,15 +50,24 @@ the **ls** command in the image above is used with an option **-a** which shows 
 
 the **ls** command in the image above is used with an option **-lh** which output the file size in understandable format
 
-5. **cat** command writes file content to a standard output format
+5. **cat** command list, combines and writes file content to a standard output format
 
 ![11 cat](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/8cf510ae-b697-4e96-8781-d4b6a791ece2)  
+
 
 in the image below the ***cat*** command is used with parameters to combine two files to give a third file  
 
 the command is written as **cat filename1.txt filename2.txt > filename3.txt** combine filename1.txt and filename2.txt to give output name  filename3.txt
 
 ![12 cat combine](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/fb88f1d7-4401-4278-8855-4b42860c5fe5)
+
+in the image below the the **cat** command is typed in reverse as **tac**
+
+the **tac** command outputs the content of a file in reverse from down-up
+
+![13 cat display in reverse](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/0c946a5f-4569-48a1-aabe-23b3a84d57c4)
+
+6. **cp** wommand 
 
 
 
