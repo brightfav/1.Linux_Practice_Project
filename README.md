@@ -40,15 +40,26 @@ the command in the image above shows a list of files and directories in another 
 
 ![8 ls -R](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/d40a2bdf-8960-46d0-9530-82de4cf5d7ea)
 
-the ls command in the image above is used with an option *-R* which shows all the files and directories in the subdirectories
+the **ls** command in the image above is used with an option *-R* which shows all the files and directories in the subdirectories
 
 ![9 ls -a](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/35e44b6e-7641-4d9e-871f-1c9d5b80890c)
 
-the ls command in the image above is used with an option *-a* which shows all hidden files together with the visible files
+the **ls** command in the image above is used with an option *-a* which shows all hidden files together with the visible files
 
 ![10 ls -lh](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/1a03845b-16fd-4e7e-b9e0-3e1e599fc761)
 
-the ls command in the image above is used with an option *-lh* which output the file size in understandable format
+the **ls** command in the image above is used with an option *-lh* which output the file size in understandable format
+
+5. **cat** command writes file content to a standard output format
+
+![11 cat](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/8cf510ae-b697-4e96-8781-d4b6a791ece2)
+
+![12 cat combine](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/fb88f1d7-4401-4278-8855-4b42860c5fe5)
+
+in the image above the ***cat*** command is used with parameters to combine two files to give a third file
+
+the command is written as **cat filename1.txt filename2.txt > filename3.txt** combine filename1.txt and filename2.txt to give output name  filename3.txt
+
 
 
 
