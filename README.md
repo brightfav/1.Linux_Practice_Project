@@ -102,6 +102,50 @@ the image below shows the output of a file renamed using the **mv**command
 
 ![19 mv rename a file](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/5b7fe7ec-6a97-410c-8100-deea1f4c9c1b)
 
+8. **mkdir** command is used to create one or more directories at once and set permissions for each of them.
+
+the basic syntax for this command is **mkdir [option] directory_name**
+
+the image below shows the output for using the **mkdir** command to create a directory
+
+![20 mkdir create a directory](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/a1eb395d-f7f1-4cbe-8089-7e8b7c86fea9)
+
+**mkdir** command is used to create a new directory in another directory  as shown in the image below
+
+![21 mkdir create a new directory in a directory](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/f928666f-8327-4633-86ea-98d2253f8fdb)
+
+9. **rmdir** command is used to delete an empty directory permanently. to run this command sudo privileges should be enabled.
+
+the code output is shown in the image below
+
+![22 rmdir Permanently remove an empty subdirectory](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/582b78aa-a5ac-4dd6-ad2a-0939d8ab65a1)
+
+10. **rm** command is used to delete files within a directory. To perform this command the user must have write permission.
+
+*it is important to know the file(s) directory to avoid deleting important files*
+
+the output of the command is shown in the image below
+
+![23 rm delete file from a directory](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/8dc7907d-a18d-48ff-bc5e-7662bedf6aa8)
+
+to remove multiple files type the command in this format **rm filename1 filename2 filename3**. the output of the command is in the image below
+
+![24 rm delete multiple files](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/72ca4482-5806-4fe6-a1b1-5b2361e32c1f)
+
+11. **touch** command allows for the creation of an empty file.
+
+the output of the command is 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
