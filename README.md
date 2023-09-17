@@ -98,7 +98,7 @@ the image below shows the execution of the **mv** command
 
 the **mv** command can also be used to rename a file using **mv sqlite_commands.sh sql_commands.sh** code format. the file name is typed followed by the new file name.
 
-the image below shows the output of a file using the **mv**command
+the image below shows the output of a file renamed using the **mv**command
 
 ![19 mv rename a file](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/5b7fe7ec-6a97-410c-8100-deea1f4c9c1b)
 
