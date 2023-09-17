@@ -67,7 +67,48 @@ the **tac** command outputs the content of a file in reverse from down-up
 
 ![13 cat display in reverse](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/0c946a5f-4569-48a1-aabe-23b3a84d57c4)
 
-6. **cp** command 
+6. **cp** command is used to copy files or directories and their content
+
+in the image below the cp command is used to copy *bright* file to another directory
+
+![14 cp](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/9a890878-22fc-4f3c-b135-7996fc07e22b)
+
+
+in the image below the cp command is used with other parameters to copy two different files to another directory using **cp filename1.txt filename2.txt filename3.txt /home/username/Documents** command format
+
+![15 cp copy two or more files from one directory to another](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/ef3b934c-f13f-4700-a5c2-8a5e04d0ef77)
+
+
+in the image below the cp command is used with other parameters to copy the content of a file to a new file in the same directory using **cp filename1.txt filename2.txt** command format
+
+![16 - cp copy the content of one file to the other](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/6a650976-f690-436a-b977-a5a80e244e7c)
+
+
+in the image below the cp command is used with -R option to copy an entire directory to another directory using **cp -R /home/username/Documents /home/username/Documents_backup** command format
+
+![17 cp copy an entire directory to another directory](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/47d8690a-190c-4fe5-a388-8f65723bd9e9)
+
+7. **mv** command is primarily used to move and rename files and directories and it does not produce an output upon completion.
+
+type **mv** followed by the filename and the destination directory suing this code formant **mv sqlite_commands1.sh /home/ubuntu/CommandsLinux**
+
+the image below shows the execution of the **mv** command
+
+![18 mv move a file to a directory](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/55e4315f-20d7-4a2a-92f1-e0b3101e71f7)
+
+the **mv** command can also be used to rename a file using **mv sqlite_commands.sh sql_commands.sh** code format. the file name is typed followed by the new file name.
+
+the image below shows the output of a file using the **mv**command
+
+![19 mv rename a file](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/5b7fe7ec-6a97-410c-8100-deea1f4c9c1b)
+
+
+
+
+
+
+
+
 
 
 
