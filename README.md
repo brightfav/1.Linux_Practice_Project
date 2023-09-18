@@ -174,6 +174,61 @@ the image below shows the output of the *df* command with various options
 
 ![30 df -h df -k df -T see the current directory system disk usage](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/0988ec2e-1fff-4510-b593-e065627a12e8)
 
+**du** command is used to check how much space a file or directory takes
+
+note that the file or directory path must be specified
+
+the image below shows the output of the *du* command with various options 
+
+![31 du know how much space a file or directory takes](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/ea3913ed-d56c-46f5-aca7-3490db2fc3f5)
+
+**head** command displays the first ten lines of a text adding an option will specifiy the number of lines to be shown
+
+the common syntax for *head* command is **head [option] [file]**
+
+the image below shows the output of the *head* command with an option
+
+![32 head command to see the begining content of a file](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/fa53e02d-33d4-4e9a-8a83-abbccb586d49)
+
+**tail** command displays the last ten lines of a file. it is useful to determine if a file has new data or to read error messages.
+
+the general syntax of *tail* command is **tail [option] [file]**
+
+the image below shows the output of the *tail* command with an option
+
+![33 tail command to see the end content of a file](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/7f9d9428-9c09-412e-8164-bc957a5948fa)
+
+**diff** command compares two contents of a file line by line and afterward will display parts that do not match.
+
+this command can be used to alter a program instead of writing the source code 
+
+the general syntax of *diff* command is **diff [option] file1 file2**
+
+the image below shows the output of the *diff* command 
+
+![34 diff compare two files](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/9d27f188-42ba-424e-b203-7103251e800c)
+
+**tar** command archives multiple files into TAR file format
+
+the general syntax of *tar* command is **tar [options] [archive_file] [file or directory to be archived]**
+
+the image below shows the output of the *diff* command 
+
+![35 tar create an archive](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/de80e161-22f6-42d8-8956-618b10868469)
+
+****
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
