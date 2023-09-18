@@ -164,7 +164,7 @@ the output of the command is shown in the image below
 
  ![28 grep find a specific word in a file](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/c2862971-5df3-4c75-a3bd-abe1f74aa0a6)
 
- 15. **df** command is used to report the system disk space usage and displays result in percentage and kilobyte.
+ 15. **df** command is used to report the system disk space usage and displays results in percentage and kilobyte.
 
 **df [options] [file]** is the general syntax for the *df* command
 
@@ -173,6 +173,8 @@ this command can be used with various options such as -h, -k, -T
 the image below shows the output of the *df* command with various options 
 
 ![30 df -h df -k df -T see the current directory system disk usage](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/0988ec2e-1fff-4510-b593-e065627a12e8)
+
+
 
 
 
