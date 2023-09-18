@@ -154,7 +154,7 @@ use this syntax ***find [option] [path] [expression]*** when using the *ind* com
 
 the output of the command is shown in the image below
 
-![27 find a file in a specific directory and its sub directory](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/adcd0634-1b37-4b3b-abc4-61a357e3e8b3
+![27 find a file in a specific directory and its sub directory](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/adcd0634-1b37-4b3b-abc4-61a357e3e8b3)
 
 14. **grep** command is used to find a word by searching through all text in a specific file.
 
@@ -172,7 +172,9 @@ this command can be used with various options such as -h, -k, -T
 
 the image below shows the output of the *df* command with various options 
 
-![Uploading 30 df -h df -k df -T see the current directory system disk usage.PNG…]()
+![30 df -h df -k df -T see the current directory system disk usage](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/0988ec2e-1fff-4510-b593-e065627a12e8)
+
+
 
 
 
