@@ -134,7 +134,53 @@ to remove multiple files type the command in this format **rm filename1 filename
 
 11. **touch** command allows for the creation of an empty file.
 
-the output of the command is 
+in the image below shows the output of **touch** command
+
+![Uploading 25 touch create a file.PNG
+
+![25 touch create a file](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/d791a474-7f2b-43b3-a727-a158b12b2897)
+
+12. **locate** command is used to find a file in the database system adding the option of -i turns off case sensitivity.
+
+this command is important because it finds a file although the exact name is not known
+
+the output of the command is shown in the image below
+
+![26 locate files](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/4cb571cf-551b-489d-959e-402330f0ad4b)
+
+13. **find** command is used to search for a file within a specific directory.
+
+use this syntax ***find [option] [path] [expression]*** when using the *ind* command
+
+the output of the command is shown in the image below
+
+![27 find a file in a specific directory and its sub directory](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/adcd0634-1b37-4b3b-abc4-61a357e3e8b3
+
+14. **grep** command is used to find a word by searching through all text in a specific file.
+
+ when a match for the searched word is found it prints all the lines that contain the searched word.
+
+ the image below shows the output of the *grep* command
+
+ ![28 grep find a specific word in a file](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/c2862971-5df3-4c75-a3bd-abe1f74aa0a6)
+
+ 15. **df** command is used to report the system disk space usage and displays result in percentage and kilobyte.
+
+**df [options] [file]** is the general syntax for the *df* command
+
+this command can be used with various options such as -h, -k, -T
+
+the image below shows the output of the *df* command with various options 
+
+![Uploading 30 df -h df -k df -T see the current directory system disk usage.PNG…]()
+
+
+
+
+
+
+
+
 
 
 
