@@ -368,13 +368,13 @@ The image below shows the output of the *jed* command
 ![50 jed used to edit a file](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/dced2b17-ac3e-40bd-9955-c55973b18aa2)
 
 
-**alias** command allows you to create a shortcut with the same funtionality as a command, filen name, or text.
+**alias** command allows you to create a shortcut with the same functionality as a command, file name, or text.
 
 when executed it instructs the shell to replace one string with another.  
 
 the general syntax of *alias* command is **alias Name=String**
 
- **unalias** command deletes and existing alias
+ **unalias** command deletes an existing alias
 
 the general syntax of *unalias* command is **unalias [alias_name]**
 
@@ -388,7 +388,32 @@ the general syntax of *su* command is **su [options] [username [argument]]**
 
 when executed without any option or argument the *su* command runs through root privileges and will prompt you to authenticate and use sudo privileges temporarily. 
 
-This command can be used with various options such as -p, -s, 
+This command can be used with various options such as -p, -s, and -l
+
+The image below shows the output of the *su* command
+
+![53 su - switch user](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/f0c8e3a0-8234-4300-8add-821089c8bba6)
+
+**htop** command is an interactive program that monitors system resources and server processes in real time
+
+the general syntax of *htop* command is **htop [options]**
+
+This command can be used with various options such as -d, -C, and -h
+
+The image below shows the output of the *htop* command 
+
+![54 htop live process monitoring](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/13ee49ef-39ac-4656-bdb6-cdf23042f88b)
+
+**ps** command produces a snapshot of all running processes in the Linux system
+
+Executing the ps command without an option or argument will list the running processes in the shell
+
+This command can be used with various options such as -T, -u, and -A
+
+The image below shows the output of the *ps* command 
+
+![55 ps produce a snapshot of all running processes](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/186469b6-1a72-4e6c-a26e-4dd2a7de0ddf)
+
 
 
 
