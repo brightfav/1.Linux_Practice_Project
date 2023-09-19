@@ -1,6 +1,6 @@
 # LinuxPracticeProject
 
-## In this project I will be outlining some command and their respective functions.
+## In this project I will be outlining some Linux command and their respective functions.
 
 **What is a Linux command?** 
 
