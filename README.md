@@ -298,7 +298,108 @@ The image below shows the output of the *man* command
 ![44 man provides a user manual of any command or utility including name option and utilities](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/0445e9aa-8d6d-4112-aa53-68098ce7b558)
 
 
-**echo** 
+**zip** command compresses files into a zip file
+
+this command is useful for archiving files and directories to reduce disk usage
+
+the general syntax of *zip* command is **zip [options] zipfile file1 file2….**
+
+the general syntax of *unzip* command is **unzip [option] file_name.zip**
+
+The image below shows the output of the *zip* and *unzip* command 
+
+![45 zip and uzip command to compress a file and decopress a zip file](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/b232e281-bac5-4697-aad8-7c6807a9b59c)
+
+**hostname** command is used to know the system's hostname. it is executable with or without a command.
+
+the general syntax of *hostname* command is **hostname [option]**
+
+This command can be used with various options such as -a, -A, and -i
+
+The image below shows the output of the *hostname* command
+
+![46 hostname know a server name alias and ip adress](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/b939b7eb-6e58-4059-a9fd-2d1c59a60d86)
+
+**useradd** and **userdel** *useradd* command is used to add or create a new user and *userdel* is used to remove or delete a user 
+
+you need root or sudo privileges to run these commands 
+
+the general syntax of *useradd* command is **useradd [option] username** 
+
+the general syntax of *userdel* command is **userdel username**
+
+The image below shows the output of the *useradd* and *userdel* command
+
+![47 useradd userdel add or remove a user in linux](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/b9f3bb4e-c882-4945-995c-e250da60b3e3)
+
+**apt-get** command lets you retrieve information and bundles from authenticated sources to manage, update, remove, and install software and its dependencies.
+
+running this command requires you to have sudo or root privileges
+
+the general syntax of *apt-get* command is **apt-get [options] (command)**
+
+The image below shows the output of the *apt* command
+
+![49 apt install install a library from a good source](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/9ddf105e-eb69-44c3-acd6-360df55f3382)
+
+![49 apt install install a library from a good source using root access](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/61f2b7b8-86f1-4e72-894c-b88724ecb3f4)
+
+**nano**, **vi**, **jed** command allows you to edit and merge files via a text editor such as nano, jed, and vi. others come with the operating system but jed has to be installed.
+
+the general syntax of *nano* command is **nano [filename]**
+
+the general syntax of *vi* command is **vi [filename]**
+
+the general syntax of *jed* command is **jed [filename]**
+
+
+The image below shows the output of the *nano* command
+
+![48 nano edit a file on linux using a text editor](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/d2a65baf-8ca9-4005-96ae-d25565fba5a4)
+
+
+The image below shows the output of the *vi* command
+
+![51 vi gives more info about a file](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/4b80c578-3934-4d34-97b5-3e646b159fea)
+
+
+The image below shows the output of the *jed* command
+
+![50 jed used to edit a file](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/dced2b17-ac3e-40bd-9955-c55973b18aa2)
+
+
+**alias** command allows you to create a shortcut with the same funtionality as a command, filen name, or text.
+
+when executed it instructs the shell to replace one string with another.  
+
+the general syntax of *alias* command is **alias Name=String**
+
+ **unalias** command deletes and existing alias
+
+the general syntax of *unalias* command is **unalias [alias_name]**
+
+The image below shows the output of the *alias* and *unalias* command
+
+![52 alias create a shortcut for a command and unalias removes the shortcut for an assigned command](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/46b84282-7c9c-401e-b688-778b25c29cfa)
+
+**su** command allows you to run a different program as a different user. It changes the administrative account in the current log-in session.
+
+the general syntax of *su* command is **su [options] [username [argument]]**
+
+when executed without any option or argument the *su* command runs through root privileges and will prompt you to authenticate and use sudo privileges temporarily. 
+
+This command can be used with various options such as -p, -s, 
+
+
+
+
+
+
+
+
+
+
+
 
 
  
