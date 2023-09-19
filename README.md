@@ -14,17 +14,20 @@ A command line is an interface that accepts lines of text and processes them int
 
 **A command in Linux is case-sensitive*
 
+
 #### **sudo**  
 
 superuser do is a command used when performing a task that requires administrator privileges or access
    
 ![1 - correct](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/cea5d37a-66fc-4ccd-9e01-cdfcba444dc2)
 
+
 #### **pwd** 
 
 Print word directory(pwd) command is used to know the location or path of your current working directory
 
 ![3 pwd](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/a546b930-a40b-4303-9a19-08415e661056)
+
 
 #### **cd** 
 
@@ -33,6 +36,7 @@ change directory command is used to change completely to another directory
 ![4 cd](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/97e553d6-42e7-4ccd-9de4-e063f68ffd5d)
 
 **note - after a change of directory from the home directory typing only 'cd' reverts back to the home directory*
+
 
 #### **ls** 
 
@@ -83,40 +87,48 @@ the **tac** command outputs the content of a file in reverse from down-up
 
 command is used to copy files or directories and their content
 
-in the image below the cp command is used to copy *bright* file to another directory
+in the image below the cp command is used to copy the *bright* file to another directory
 
 ![14 cp](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/9a890878-22fc-4f3c-b135-7996fc07e22b)
 
 
-in the image below the cp command is used with other parameters to copy two different files to another directory using **cp filename1.txt filename2.txt filename3.txt /home/username/Documents** command format
+in the image below the cp command is used with other parameters to copy two different files to another directory using the **cp filename1.txt filename2.txt filename3.txt /home/username/Documents** command format
 
 ![15 cp copy two or more files from one directory to another](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/ef3b934c-f13f-4700-a5c2-8a5e04d0ef77)
 
 
-in the image below the cp command is used with other parameters to copy the content of a file to a new file in the same directory using **cp filename1.txt filename2.txt** command format
+in the image below the cp command is used with other parameters to copy the content of a file to a new file in the same directory using
+**cp filename1.txt filename2.txt** 
+command format
 
 ![16 - cp copy the content of one file to the other](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/6a650976-f690-436a-b977-a5a80e244e7c)
 
 
-in the image below the cp command is used with -R option to copy an entire directory to another directory using **cp -R /home/username/Documents /home/username/Documents_backup** command format
+in the image below the cp command is used with the -R option to copy an entire directory to another directory using the 
+**cp -R /home/username/Documents /home/username/Documents_backup** 
+command format
 
 ![17 cp copy an entire directory to another directory](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/47d8690a-190c-4fe5-a388-8f65723bd9e9)
+
 
 #### **mv** 
 
 command is primarily used to move and rename files and directories and it does not produce an output upon completion.
 
-type **mv** followed by the filename and the destination directory suing this code formant **mv sqlite_commands1.sh /home/ubuntu/CommandsLinux**
+type **mv** followed by the filename and the destination directory using this code formant 
+**mv sqlite_commands1.sh /home/ubuntu/CommandsLinux**
 
 the image below shows the execution of the **mv** command
 
 ![18 mv move a file to a directory](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/55e4315f-20d7-4a2a-92f1-e0b3101e71f7)
 
-the **mv** command can also be used to rename a file using **mv sqlite_commands.sh sql_commands.sh** code format. the file name is typed followed by the new file name.
+the **mv** command can also be used to rename a file using
+**mv sqlite_commands.sh sql_commands.sh** code format. the file name is typed followed by the new file name.
 
 the image below shows the output of a file renamed using the **mv**command
 
 ![19 mv rename a file](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/5b7fe7ec-6a97-410c-8100-deea1f4c9c1b)
+
 
 #### **mkdir** 
 
@@ -132,6 +144,7 @@ the image below shows the output for using the **mkdir** command to create a dir
 
 ![21 mkdir create a new directory in a directory](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/f928666f-8327-4633-86ea-98d2253f8fdb)
 
+
 #### **rmdir** 
 
 command is used to delete an empty directory permanently. to run this command sudo privileges should be enabled.
@@ -139,6 +152,7 @@ command is used to delete an empty directory permanently. to run this command su
 the code output is shown in the image below
 
 ![22 rmdir Permanently remove an empty subdirectory](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/582b78aa-a5ac-4dd6-ad2a-0939d8ab65a1)
+
 
 #### **rm**
 
@@ -153,6 +167,7 @@ the output of the command is shown in the image below
 to remove multiple files type the command in this format **rm filename1 filename2 filename3**. the output of the command is in the image below
 
 ![24 rm delete multiple files](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/72ca4482-5806-4fe6-a1b1-5b2361e32c1f)
+
 
 #### **touch**
 
@@ -175,11 +190,12 @@ the output of the command is shown in the image below
 
 ![26 locate files](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/4cb571cf-551b-489d-959e-402330f0ad4b)
 
+
 #### **find**
 
 command is used to search for a file within a specific directory.
 
-use this syntax ***find [option] [path] [expression]*** when using the *ind* command
+use this syntax ***find [option] [path] [expression]*** when using the *find* command
 
 the output of the command is shown in the image below
 
@@ -196,6 +212,7 @@ the image below shows the output of the *grep* command
 
 ![28 grep find a specific word in a file](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/c2862971-5df3-4c75-a3bd-abe1f74aa0a6)
 
+
 #### **df** 
 
 command is used to report the system disk space usage and displays results in percentage and kilobyte.
@@ -208,6 +225,7 @@ the image below shows the output of the *df* command with various options
 
 ![30 df -h df -k df -T see the current directory system disk usage](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/0988ec2e-1fff-4510-b593-e065627a12e8)
 
+
 #### **du**
 
 command is used to check how much space a file or directory takes
@@ -218,15 +236,17 @@ the image below shows the output of the *du* command with various options
 
 ![31 du know how much space a file or directory takes](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/ea3913ed-d56c-46f5-aca7-3490db2fc3f5)
 
+
 #### **head**
 
-command displays the first ten lines of a text adding an option will specify the number of lines to be shown
+this command displays the first ten lines of a text adding an option will specify the number of lines to be shown
 
 the common syntax for *head* command is **head [option] [file]**
 
 the image below shows the output of the *head* command with an option
 
 ![32 head command to see the begining content of a file](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/fa53e02d-33d4-4e9a-8a83-abbccb586d49)
+
 
 #### **tail**
 
@@ -237,6 +257,7 @@ the general syntax of *tail* command is **tail [option] [file]**
 the image below shows the output of the *tail* command with an option
 
 ![33 tail command to see the end content of a file](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/7f9d9428-9c09-412e-8164-bc957a5948fa)
+
 
 #### **diff**
 
@@ -250,6 +271,7 @@ the image below shows the output of the *diff* command
 
 ![34 diff compare two files](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/9d27f188-42ba-424e-b203-7103251e800c)
 
+
 #### **tar**
 
 command archives multiple files into TAR file format
@@ -261,6 +283,7 @@ This command can be used with various options such as -x, -t, and -u.
 the image below shows the output of the *tar* command 
 
 ![35 tar create an archive](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/de80e161-22f6-42d8-8956-618b10868469)
+
 
 #### **chmod** 
 
@@ -287,6 +310,7 @@ the image below shows the output of the *chown* command
 
 ![37 change of file or directory ownership to another user](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/17899c29-4f36-4697-a503-74018fe554b6)
 
+
 #### **ping** 
 
 command is used to check if a network server is reachable. it can also be used to troubleshoot various connectivity issues.
@@ -297,6 +321,7 @@ the image below shows the output of the *ping* command
 
 ![39 ping test connection to a server or website](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/0cf039d0-98c3-4326-852e-01dfc70985a8)
 
+
 #### **wget**
 
 command lets you download files from the internet. it works in the background without hindering other running processes
@@ -306,6 +331,7 @@ the general syntax of *wget* command is **wget [option] [url]**
 The image below shows the output of the *wget* command 
 
 ![40 wget download files from the internet](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/3722cba7-db71-419f-9efe-bd1c69d56fb1)
+
 
 #### **uname** 
 
@@ -347,6 +373,7 @@ The image below shows the output of the *history* command
 
 ![43 history list all previously listed commands](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/56c6ba34-a830-4391-84d3-bab1c554be09)
 
+
 #### **man** 
 
 provides a user manual of any commands or utilities you can run in the terminal including name, description, and options.
@@ -387,6 +414,7 @@ The image below shows the output of the *hostname* command
 
 ![46 hostname know a server name alias and ip adress](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/b939b7eb-6e58-4059-a9fd-2d1c59a60d86)
 
+
 #### **useradd**  **userdel**
 
 *useradd* command is used to add or create a new user and *userdel* is used to remove or delete a user 
@@ -415,6 +443,7 @@ The image below shows the output of the *apt* command
 ![49 apt install install a library from a good source](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/9ddf105e-eb69-44c3-acd6-360df55f3382)
 
 ![49 apt install install a library from a good source using root access](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/61f2b7b8-86f1-4e72-894c-b88724ecb3f4)
+
 
 #### **nano** **vi** **jed** 
 
