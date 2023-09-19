@@ -14,7 +14,9 @@ A command line is an interface that accepts lines of text and processes them int
 
 **A command in Linux is case-sensitive*
 
-### **sudo** - super user do is a command used when performing a task that requires administrator privileges or access
+### **sudo** 
+
+superuser do is a command used when performing a task that requires administrator privileges or access
    
 ![1 - correct](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/cea5d37a-66fc-4ccd-9e01-cdfcba444dc2)
 
