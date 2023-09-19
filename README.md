@@ -182,7 +182,7 @@ the image below shows the output of the *du* command with various options
 
 ![31 du know how much space a file or directory takes](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/ea3913ed-d56c-46f5-aca7-3490db2fc3f5)
 
-**head** command displays the first ten lines of a text adding an option will specifiy the number of lines to be shown
+**head** command displays the first ten lines of a text adding an option will specify the number of lines to be shown
 
 the common syntax for *head* command is **head [option] [file]**
 
@@ -210,20 +210,98 @@ the image below shows the output of the *diff* command
 
 **tar** command archives multiple files into TAR file format
 
-the general syntax of *tar* command is **tar [options] [archive_file] [file or directory to be archived]**
+the general syntax of *tar* command is **tar [options] [archive_file] [file or directory to be archived]** 
 
-the image below shows the output of the *diff* command 
+This command can be used with various options such as -x, -t, and -u.
+
+the image below shows the output of the *tar* command 
 
 ![35 tar create an archive](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/de80e161-22f6-42d8-8956-618b10868469)
 
-****
+**chmod** command modifies a file or directory read, write and execute permissions.
+
+there are three user classes in linux which are owner, group member and others.
+
+the general syntax of the *chmod* command is **chmod [option] [permission] [file_name]** 
+
+This command can be used with various options such as -c, -v, and -f.
+
+the image below shows the output of the *chmod* command 
+
+![36 chmod change read or write permission of a file or directory of a user](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/2e7ab6c5-f0af-4262-bb02-e070c08dfd7f)
 
 
+**chown** command allows for the change of ownership of a file, directory, or symbolic link to a specified username. 
+
+the general syntax of *chown* command is **chown [option] owner[:group] file(s)**
+
+the image below shows the output of the *chown* command 
+
+![37 change of file or directory ownership to another user](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/17899c29-4f36-4697-a503-74018fe554b6)
+
+**ping** command is used to check if a network server is reachable. it can also be used to troubleshoot various connectivity issues.
+
+the general syntax of *ping* command is **ping [option] [hostname_or_IP_address]**
+
+the image below shows the output of the *ping* command 
+
+![39 ping test connection to a server or website](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/0cf039d0-98c3-4326-852e-01dfc70985a8)
+
+**wget** command lets you download files from the internet. it works in the background without hindering other running processes
+
+the general syntax of *wget* command is **wget [option] [url]**
+
+The image below shows the output of the *wget* command 
+
+![40 wget download files from the internet](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/3722cba7-db71-419f-9efe-bd1c69d56fb1)
+
+**uname** command prints detailed information about your Linux system and hardware.
+
+it displays the machine name, operating system, and kernel.
+
+the general syntax of *uname* command is **uname [option]**
+
+This command can be used with various options such as -a, -s, and -n
+
+The image below shows the output of the *uname* command 
+
+![41 uname give detailed information about linux system](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/6aa7af23-f561-4e8a-8e95-7122430a1581)
+
+**top** command displays all running processes and a dynamic real-time view of the current system. it sums up resource utilization from CPU to memory usage.
+
+this command is useful to identify and terminate a process that may use too many system resources.  
+
+the general syntax of *top* command is **top**
+
+The image below shows the output of the *top* command
+
+![42 top display all running process in the linux server](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/c1d5eaf2-3012-4fa8-93b0-eaecd16841ca)
+
+**history** command will list up to 500 previously executed commands allowing you to reuse them. Only users with sudo privileges can execute this command.
+
+the general syntax of *history* command is **history [option]**
+
+This command can be used with various options such as -c, -d, and -a
+
+The image below shows the output of the *history* command
+
+![43 history list all previously listed commands](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/56c6ba34-a830-4391-84d3-bab1c554be09)
+
+**man** provides a user manual of any commands or utilities you can run in the terminal including name, description, and options.
+
+the general syntax of *man* command is **man [command_name]** 
+
+the syntax to use to specify the displayed section is **man [option] [section_number] [command_name]**
+
+The image below shows the output of the *man* command 
+
+![44 man provides a user manual of any command or utility including name option and utilities](https://github.com/brightfav/LinuxPracticeProject/assets/107005839/0445e9aa-8d6d-4112-aa53-68098ce7b558)
 
 
+**echo** 
 
 
-
+ 
 
 
 
